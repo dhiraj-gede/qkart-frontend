@@ -1,5 +1,4 @@
 import Register from "./components/Register";
-import ipConfig from "./ipConfig.json";
 import { Route, Switch } from "react-router-dom";
 import Login from "./components/Login";
 import Products from "./components/Products";
@@ -7,7 +6,7 @@ import Checkout from "./components/Checkout";
 import Thanks from "./components/Thanks"
 
 export const config = {
-  endpoint: `https://qkart-frontend-noblevincent99.herokuapp.com/api/v1`,
+  endpoint: `https://elbonn99-qkart-backend.onrender.com/api/v1`,
 };
 
 function App() {
